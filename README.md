@@ -12,7 +12,7 @@
 | [✍️ 03_my_thesis](03_my_thesis/) | 내 논문 (주제 확정 후) |
 
 ## 📚 개념 정리
-- **순서 데이터 모델** : [RNN](01_knowledge/rnn.md) · LSTM · BiLSTM · GRU
+- **순서 데이터 모델** : [RNN](01_knowledge/rnn.md) · [Vanishing Gradient](01_knowledge/vanishing-gradient.md) · [LSTM](01_knowledge/lstm.md) · [GRU](01_knowledge/gru.md) · [BiLSTM](01_knowledge/bilstm.md)
 - **시계열 실험 규칙** : 슬라이딩 윈도우 · 시간 순서 분할 · 데이터 누수 · 정상성
 - **평가 지표** : MAE / RMSE / MAPE · 방향 정확도 · Sharpe / MDD
 - **금융 기초** : OHLCV · 수익률 · 효율적 시장 가설 · Naive baseline

@@ -84,4 +84,4 @@
   ![seq2seq](images/rnn/07_seq2seq.png)
 
 ---
-**다음 →** 기울기 소실(vanishing gradient) → LSTM
+**다음 →** [Vanishing Gradient](vanishing-gradient.md) → [LSTM](lstm.md)

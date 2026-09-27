@@ -8,10 +8,10 @@
 | | 개념 | 한 줄 요약 | 나오는 논문 |
 |---|---|---|---|
 | ✅ | [RNN](rnn.md) | 이전 시점 정보를 은닉 상태로 넘기는 신경망 | 전반 |
-| ⬜ | 기울기 소실 (vanishing gradient) | RNN이 긴 과거를 잊는 이유 → LSTM 등장 배경 | 전반 |
-| ⬜ | LSTM | 게이트 3개(forget/input/output)로 기억 조절 | Fischer, Lu, Zhang |
-| ⬜ | BiLSTM | 양방향으로 읽는 LSTM | Zhang |
-| ⬜ | GRU | LSTM 간소화 버전 | Jiang |
+| ✅ | [기울기 소실 (vanishing gradient)](vanishing-gradient.md) | RNN이 긴 과거를 잊는 이유 → LSTM 등장 배경 | 전반 |
+| ✅ | [LSTM](lstm.md) | 게이트 3개(forget/input/output)로 기억 조절 | Fischer, Lu, Zhang |
+| ✅ | [BiLSTM](bilstm.md) | 양방향으로 읽는 LSTM | Zhang |
+| ✅ | [GRU](gru.md) | LSTM 간소화 버전 | Jiang |
 
 ## 시계열 실험 규칙
 | | 개념 | 한 줄 요약 | 나오는 논문 |
