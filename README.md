@@ -18,7 +18,7 @@
 - **금융 기초** : OHLCV · 수익률 · 효율적 시장 가설 · Naive baseline
 - **읽으면서** : 1D CNN · Attention · Transformer
 
-→ 전체 목록 : [01_knowledge](01_knowledge/README.md)
+→ 전체 목록 : [01_knowledge](01_knowledge/README.md) · 📖 [용어집](01_knowledge/glossary.md)
 
 ## 📄 읽은 논문
 | 연도 | 논문 | 키워드 |
