@@ -1,0 +1,18 @@
+# 논문 PDF·번역본은 저작권 때문에 올리지 않음 (링크만 기록)
+*.pdf
+*.hwp
+*.docx
+
+# 실험 데이터·모델 (나중에 03_my_thesis 실험 시)
+data/
+*.csv
+*.h5
+*.pt
+*.ckpt
+
+# 기타
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db
+desktop.ini
