@@ -7,6 +7,7 @@
 ## 순서가 있는 데이터를 다루는 모델
 | | 개념 | 한 줄 요약 | 나오는 논문 |
 |---|---|---|---|
+| ⬜ | Feedforward Neural Network (FNN) | | Jiang |
 | ✅ | [RNN](rnn.md) | 이전 시점 정보를 은닉 상태로 넘기는 신경망 | 전반 |
 | ✅ | [기울기 소실 (vanishing gradient)](vanishing-gradient.md) | RNN이 긴 과거를 잊는 이유 → LSTM 등장 배경 | 전반 |
 | ✅ | [LSTM](lstm.md) | 게이트 3개(forget/input/output)로 기억 조절 | Fischer, Lu, Zhang |
@@ -45,6 +46,8 @@
 | ⬜ | 1D CNN | 2D 필터를 시간축 한 줄로 | Lu, Zhang |
 | ⬜ | Attention | 어느 날짜가 중요한지 가중치 | Zhang |
 | ⬜ | Transformer | Attention만으로 만든 모델 | Jiang |
+| ⬜ | 그래프 신경망 (GNN) | | Jiang |
+| ⬜ | 선형·통계 모델 : ARIMA / GARCH / 로지스틱 회귀 | | Jiang |
 | ⬜ | 기술적 지표 (MA, GC, Envelope, RSI) | | 정동균 |
 | ⬜ | 유전 알고리즘 (GA) | 선택·교차·돌연변이로 최적화 | 정동균 |
 | ⬜ | ESN / Reservoir Computing | 출력층만 학습하는 RNN | 정동균 |
