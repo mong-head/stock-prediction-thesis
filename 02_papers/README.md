@@ -5,7 +5,7 @@
 ## 대표 논문
 | # | 연도 | 논문 | 핵심 키워드 | 단계 | 한 줄 평 |
 |---|---|---|---|---|---|
-| 1 | 2021 | [Jiang — Applications of deep learning in stock market prediction](2021_Jiang_DL-stock-review.md) | 리뷰 | ⬜ | |
+| 1 | 2021 | [Jiang — Applications of deep learning in stock market prediction](2021_Jiang_DL-stock-review.md) | 리뷰 | ✅ 완독 | |
 | 2 | 2018 | [Fischer & Krauss — LSTM for financial market predictions](2018_Fischer_LSTM-financial.md) | LSTM, S&P500, 트레이딩 | ⬜ | |
 | 3 | 2020 | [Lu et al. — A CNN-LSTM-Based Model to Forecast Stock Prices](2020_Lu_CNN-LSTM.md) | CNN-LSTM | ⬜ | |
 | 4 | 2023 | [Zhang et al. — CNN-BiLSTM-Attention](2023_Zhang_CNN-BiLSTM-Attention.md) | CNN-BiLSTM, Attention | ⬜ | |
