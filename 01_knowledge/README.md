@@ -22,6 +22,7 @@
 | ⬜ | walk-forward 검증 | 시계열용 교차검증 | Fischer |
 | ⬜ | 데이터 누수 (look-ahead bias) | 스케일러는 train으로만 fit | 전반 |
 | ⬜ | 정상성 (stationarity) | 가격 대신 수익률을 쓰는 이유 | 전반 |
+| ⬜ | 생존편향 (survivorship bias) | | |
 
 ## 평가 지표
 | | 개념 | 한 줄 요약 | 나오는 논문 |
@@ -35,7 +36,7 @@
 |---|---|---|---|
 | ⬜ | OHLCV | 시가·고가·저가·종가·거래량 | 전반 |
 | ⬜ | 가격 vs 수익률 | 진지한 연구는 대부분 수익률 예측 | 전반 |
-| ⬜ | 지수 / ETF | S&P500, KOSPI200, SPY·QQQ | Fischer, 정동균 |
+| ⬜ | [지수 / ETF](index-etf.md) | S&P500, KOSPI200, SPY·QQQ | Fischer, 정동균 |
 | ⬜ | 효율적 시장 가설 / 랜덤워크 | 주가는 원래 예측하기 어렵다 | Jiang, Fischer |
 | ⬜ | 롱숏 포트폴리오 | 오를 종목 매수 + 내릴 종목 공매도 | Fischer |
 | ⬜ | ⭐ Naive baseline | "내일 = 오늘 종가"와 비교했는가? | 전반 |
