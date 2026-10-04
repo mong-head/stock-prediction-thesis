@@ -9,7 +9,7 @@
 |---|---|
 | [📚 01_knowledge](01_knowledge/) | 논문을 읽기 위한 배경지식 정리 |
 | [📄 02_papers](02_papers/) | 관련 논문 — 서지 · 링크 · 느낀 점 |
-| [✍️ 03_my_thesis](03_my_thesis/) | 내 논문 (주제 확정 후) |
+| [🧪 03_practice](03_practice/) | 연습 노트북 — 개념을 코드로 확인 |
 
 ## 📚 개념 정리
 - **순서 데이터 모델** : FNN · [RNN](01_knowledge/rnn.md) · [Vanishing Gradient](01_knowledge/vanishing-gradient.md) · [LSTM](01_knowledge/lstm.md) · [GRU](01_knowledge/gru.md) · [BiLSTM](01_knowledge/bilstm.md)
