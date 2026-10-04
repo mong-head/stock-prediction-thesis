@@ -16,7 +16,7 @@
 |---|---|---|---|---|
 | 1 | `data_load_krx` | OHLCV가 실제로 어떻게 생겼는지 | — | ⬜ |
 | 2 | `data_candlestick` | 캔들 하나에 4개 값이 어떻게 들어가는지 | — | ⬜ |
-| 3 | `data_sliding_window` | "과거 20일 → 다음날"이 배열로 어떤 모양인지 | ⬜ 슬라이딩 윈도우 | ⬜ |
+| 3 | `data_sliding_window` | "과거 20일 → 다음날"이 배열로 어떤 모양인지 | [sliding-window.md](../01_knowledge/sliding-window.md) | ⬜ |
 | 4 | `model_lstm_minimal` | `input_shape=(20, 1)`의 의미 | [lstm.md](../01_knowledge/lstm.md) ✅ | ⬜ |
 | 5 | `eval_time_split` | 왜 무작위로 나누면 안 되는지 | ⬜ 시간 순서 분할 | ⬜ |
 | 6 | `eval_metrics` | 정확도의 함정 · F1 · 혼동행렬 | ⬜ 평가 지표 | ⬜ |
