@@ -16,3 +16,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# 가상환경 (VS Code가 자동으로 만들 수 있음)
+.venv/
+venv/
