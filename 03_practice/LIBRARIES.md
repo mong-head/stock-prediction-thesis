@@ -8,6 +8,7 @@
 |---|---|---|---|
 | [1. 데이터 수집](#1-데이터-수집) | pykrx | 1.2.9 | 한국 주가 (KRX) |
 | | finance-datareader | 0.9.202 | 한국·해외 주가, 종목 목록 |
+| | yfinance | 1.7.0 | 미국 주가·지수·ETF (Yahoo Finance) |
 | [2. 데이터 분석](#2-데이터-분석) | pandas | 2.3.3 | 표 데이터 다루기 |
 | | numpy | 2.4.6 | 배열 계산 |
 | [3. 시각화](#3-시각화) | matplotlib | 3.11.2 | 그래프 |
@@ -55,6 +56,25 @@
 | 이름 → 코드 | `krx[krx["Name"] == "SK하이닉스"]` → `Code` 칸 |
 | `"KRX:005930"` 형식 | 한 번에 **최대 2년**까지만 (넘으면 `400 Bad Request`) |
 | `"NAVER:005930"` 형식 | 기본 형식과 같은 숫자 |
+| **미국 주식·지수·ETF** | `fdr.DataReader("AAPL")`, `"SPY"`, `"^GSPC"` 또는 `"US500"`(S&P 500 지수) → 컬럼 `Open High Low Close Volume Adj Close` |
+| 미국 데이터 종료일 | `end`가 **포함 안 됨** (9/30까지 받으려면 `"2026-10-01"`). 한국 데이터는 포함됨 |
+
+## yfinance
+
+미국 데이터용. 논문 데이터 출처 1위인 **Yahoo Finance**를 직접 씀. `import yfinance as yf`
+
+| 항목 | 내용 |
+|---|---|
+| 일봉 받기 | `yf.download("SPY", start="2025-10-01", end="2026-10-01")` |
+| ⚠️ **종료일 미포함** | `end` 날짜는 안 들어감 → 9/30까지 받으려면 `end="2026-10-01"` |
+| ⚠️ **컬럼이 2층** | 기본은 `("Close", "SPY")`처럼 종목 이름이 한 층 더 붙음 → `df["Close"]`가 생각대로 안 됨. `multi_level_index=False`로 1층으로 |
+| ⚠️ **기본값은 이미 수정된 가격** | 기본 `auto_adjust=True` → `Close`가 **이미 수정 종가**이고 `Adj Close` 컬럼이 없음. 원래 종가도 보려면 `auto_adjust=False` → `Close`(원래) + `Adj Close`(수정) 둘 다 |
+| `Close` vs `Adj Close` | 애플 1년치(251행) 중 **214행**에서 다름 (배당 때문에 과거 가격이 조정됨). S&P 500 **지수는 0행** (지수는 배당이 없음) |
+| 배당·분할 내역 | `yf.Ticker("AAPL").history(start=..., end=...)` → `Dividends`, `Stock Splits` 컬럼이 같이 나옴 |
+| 지수 티커 | 앞에 `^`: `^GSPC`(S&P 500), `^IXIC`(나스닥), `^DJI`(다우) |
+| ETF 티커 | `SPY`(S&P 500), `QQQ`(나스닥 100), `DIA`(다우 30) |
+
+> pykrx와 비교: pykrx는 `adjusted`로 **둘 중 하나**를 골라 받고, yfinance(`auto_adjust=False`)는 **한 표에 둘 다** 나옴.
 
 ---
 
