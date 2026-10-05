@@ -16,10 +16,18 @@
 - **데이터 기초** : [스칼라 / 벡터 / 행렬 / 텐서](01_knowledge/tensor.md)
 - **시계열 실험 규칙** : [슬라이딩 윈도우](01_knowledge/sliding-window.md) · 시간 순서 분할 · 데이터 누수 · 정상성 · 생존편향
 - **평가 지표** : MAE / RMSE / MAPE · 방향 정확도 · Sharpe / MDD
-- **금융 기초** : OHLCV · 수익률 · [지수 / ETF](01_knowledge/index-etf.md) · 효율적 시장 가설 · Naive baseline
+- **금융 기초** : [OHLCV](01_knowledge/ohlcv.md) · [가격 vs 수익률](01_knowledge/price-vs-return.md) · [수정주가](01_knowledge/adjusted-price.md) · [지수 / ETF](01_knowledge/index-etf.md) · 효율적 시장 가설 · Naive baseline
 - **읽으면서** : 1D CNN · Attention · Transformer · GNN · ARIMA / GARCH / 로지스틱 회귀
 
 → 전체 목록 : [01_knowledge](01_knowledge/README.md) · 📖 [용어집](01_knowledge/glossary.md)
+
+## 🧪 연습 노트북
+| | 노트북 | 확인한 것 |
+|---|---|---|
+| ✅ | [data_load_krx](03_practice/data_load_krx.ipynb) | 한국 주가 OHLCV · 수정주가 · ETF / 지수 |
+| 🟡 | [data_load_us](03_practice/data_load_us.ipynb) | 미국 데이터 · Close vs Adj Close · 지수 vs ETF |
+
+→ 전체 목록 : [03_practice](03_practice/README.md) · 📦 [라이브러리 메모](03_practice/LIBRARIES.md)
 
 ## 📄 읽은 논문
 | 연도 | 논문 | 키워드 |
