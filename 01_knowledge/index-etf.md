@@ -62,3 +62,9 @@
   - 애플/마이크로소프트등 500개 중 높은 순위의 기업이 영향을 많이 미침
 - 대표적인 ETF
   - SPY : S&P500 지수 추종하는 ETF, 수수료(GER) 싸다
+
+---
+
+## 👉 코드로 확인
+
+- [data_load_us.ipynb](../03_practice/data_load_us.ipynb)

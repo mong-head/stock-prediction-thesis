@@ -11,7 +11,8 @@
 
 | | 노트북 | 확인한 것 | 개념 노트 |
 |---|---|---|---|
-| 🟡 | [`data_load_krx`](data_load_krx.ipynb) | OHLCV가 실제로 어떻게 생겼는지 | |
+| ✅ | [`data_load_krx`](data_load_krx.ipynb) | OHLCV가 실제로 어떻게 생겼는지 | |
+| 🟡 | [`data_load_us`](data_load_us.ipynb) | 미국 데이터는 KRX랑 뭐가 다른지 · 지수 vs ETF | [지수 / ETF](../01_knowledge/index-etf.md) |
 | ⬜ | `data_candlestick` | 캔들 하나에 네 값이 어떻게 들어가는지 | [지수 / ETF](../01_knowledge/index-etf.md) |
 | ⬜ | `data_sliding_window` | 과거 N일 → 다음 날이 배열로 어떤 모양인지 | [슬라이딩 윈도우](../01_knowledge/sliding-window.md) |
 | ⬜ | `model_lstm_minimal` | `input_shape=(20, 1)`이 뭘 의미하는지 | [LSTM](../01_knowledge/lstm.md) |
