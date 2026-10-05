@@ -39,9 +39,10 @@
 ## 금융 기초
 | | 개념 | 한 줄 요약 | 나오는 논문 |
 |---|---|---|---|
-| ⬜ | OHLCV | 시가·고가·저가·종가·거래량 | 전반 |
-| ⬜ | 가격 vs 수익률 | 진지한 연구는 대부분 수익률 예측 | 전반 |
-| ⬜ | [지수 / ETF](index-etf.md) | S&P500, KOSPI200, SPY·QQQ | Fischer, 정동균 |
+| ✅ | [OHLCV](ohlcv.md) | 시가·고가·저가·종가·거래량 | 전반 |
+| ✅ | [가격 vs 수익률](price-vs-return.md) | 진지한 연구는 대부분 수익률 예측 | 전반 |
+| ✅ | [수정주가 (adjusted price)](adjusted-price.md) | 액면분할 · 배당/분배금 | |
+| ✅ | [지수 / ETF](index-etf.md) | S&P500, KOSPI200, SPY·QQQ | Fischer, 정동균 |
 | ⬜ | 효율적 시장 가설 / 랜덤워크 | 주가는 원래 예측하기 어렵다 | Jiang, Fischer |
 | ⬜ | 롱숏 포트폴리오 | 오를 종목 매수 + 내릴 종목 공매도 | Fischer |
 | ⬜ | ⭐ Naive baseline | "내일 = 오늘 종가"와 비교했는가? | 전반 |

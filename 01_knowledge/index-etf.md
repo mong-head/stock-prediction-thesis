@@ -67,4 +67,5 @@
 
 ## 👉 코드로 확인
 
-- [data_load_us.ipynb](../03_practice/data_load_us.ipynb)
+- [data_load_krx.ipynb](../03_practice/data_load_krx.ipynb) — 한국 ETF(KODEX 200) · 지수(KOSPI 200)
+- [data_load_us.ipynb](../03_practice/data_load_us.ipynb) — S&P 500 vs SPY, Close vs Adj Close
